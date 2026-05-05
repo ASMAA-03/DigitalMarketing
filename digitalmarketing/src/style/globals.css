@@ -1,3 +1,4 @@
+@import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Federant&family=Macondo&family=Playwrite+CU+Guides&family=Roboto+Slab:wght@100..900&display=swap');
 
 *{
@@ -145,13 +146,13 @@ box-shadow: -5px 10px 15px black;
 letter-spacing: 2px;
 }
 .brand-section{
- background-image: url(/images/call-the-action-background.jpg);
+ background-image: url(./../../public/images/call-the-action-background.jpg);
  height: 90vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   border-radius: 120px;
-  width: ;
+  
   display: flex;
   flex-direction: column;
 }
