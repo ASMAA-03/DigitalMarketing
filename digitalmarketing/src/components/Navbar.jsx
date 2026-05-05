@@ -1,9 +1,8 @@
 'use client';
-import styles from "@/style/style.css";
 export default function Navbar() {
   return (
-    <nav>
-      <div className="logo">
+    <nav className="w-full h-[9vh] px-[5%] py-4 bg-white/80 border-b border-black/10 backdrop-blur-md mb-8 flex items-center justify-between fixed rounded-b-[55px] z-10">
+      <div className="flex flex-row">
         <svg
           height="5.2vh"
           version="1.1"
@@ -25,11 +24,16 @@ export default function Navbar() {
             <path className="st0" d="M288.047,223.953c6.382,6.396,16.142,7.32,23.537,2.838l113.67-60.851c4.212-2.456,8.161-5.474,11.764-9.085c22.614-22.606,22.621-59.267,0-81.873c-22.606-22.614-59.267-22.614-81.874,0c-3.611,3.604-6.622,7.568-9.076,11.765l-60.866,113.669C280.72,207.818,281.651,217.571,288.047,223.953z" />
           </g>
         </svg>
-        <p>Digital Marketing Services</p>
+        <p className="relative top-[6px] left-[20px] text-[1.3rem]">Digital Marketing Services</p>
       </div>
-      <div className="btns">
-        <button className="login-btn">Login</button>
-        <button className="sgin-btn">Sign</button>
+
+      <div className="flex gap-[10px]">
+        <button className=" rounded-full  text-[1rem] border-none cursor-pointer w-28 h-10 bg-gray-200 transition-all duration-500  text-black hover:underline">
+          Login
+        </button>
+        <button className="rounded-full  text-[1rem] border border-black w-25 cursor-pointer transition-all duration-500 mx-[15px] bg-black text-white hover:opacity-80 hover:text-[#fef0d8]">
+          Sign
+        </button>
       </div>
     </nav>
   );
