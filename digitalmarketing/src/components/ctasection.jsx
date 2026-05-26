@@ -2,10 +2,8 @@ export default function CTASection() {
   return (
     <section className="flex flex-col min-h-[180vh] max-md:min-h-auto">
 
-      {/* ===== Middle Banner ===== */}
       <div className="flex flex-row justify-between items-center p-[50px] flex-wrap gap-6 max-md:p-[20px] max-md:justify-center max-md:gap-4">
 
-        {/* SVG 1 */}
         <svg className="w-[10vw] h-[12vh] shrink-0 max-md:w-[20vw] max-md:h-[8vh]" viewBox="0 0 4000 4000" xmlns="http://www.w3.org/2000/svg" xmlSpace="preserve">
           <rect style={{ fillRule:"evenodd", clipRule:"evenodd", fill:"#FFFFFF" }} width="4000" height="4000"/>
           <path style={{ fillRule:"evenodd", clipRule:"evenodd" }} d="M1516.653,1965.614h-350.636l-235.455-407.812h350.637L1516.653,1965.614z M1507.601,1557.803l-113.202-196.063h-226.398H817.365H590.961l113.202,196.063l235.447,407.812l113.202,196.067h226.398h350.645h226.398l-113.197-196.067L1507.601,1557.803z"/>
@@ -18,7 +16,6 @@ export default function CTASection() {
           <polygon style={{ fillRule:"evenodd", clipRule:"evenodd" }} points="1999.998,1965.614 2048.659,1965.614 2275.052,1965.614 2625.694,1965.614 2852.097,1965.614 2738.896,2161.681 2512.497,2161.681 2161.861,2161.681 1999.998,2161.681 1838.134,2161.681 1487.499,2161.681 1261.099,2161.681 1147.9,1965.614 1374.301,1965.614 1724.943,1965.614 1951.336,1965.614"/>
         </svg>
 
-        {/* SVG 2 — COMPANY */}
         <svg className="w-[10vw] h-[12vh] shrink-0 max-md:w-[20vw] max-md:h-[8vh]" viewBox="0 0 1200 1200" xmlns="http://www.w3.org/2000/svg" xmlSpace="preserve">
           <rect style={{ fill:"#F6F6F6" }} width="1200" height="1200"/>
           <path style={{ fill:"#222221" }} d="M528.52,753.7c3.648,0.458,7.319,0.833,11.007,1.151c56.778-25.211,104.721-66.748,138.198-120.692c32.448-52.29,48.443-111.584,47.015-171.703l-61.927-61.927C687.976,531.267,638.608,669.658,528.52,753.7z"/>
@@ -30,7 +27,6 @@ export default function CTASection() {
           <text x="326.7746" y="922.2274" style={{ fontFamily:"sans-serif", fontSize:"90px", letterSpacing:"23px" }}>COMPANY</text>
         </svg>
 
-        {/* SVG 3 — Dark brand mark */}
         <svg className="w-[10vw] h-[16vh] shrink-0 max-md:w-[20vw] max-md:h-[8vh]" viewBox="0 0 4000 4000" xmlns="http://www.w3.org/2000/svg">
           <defs>
             <linearGradient id="lg1" x1="1154.451" y1="2176.246" x2="834.172" y2="1346.286" gradientTransform="translate(571.479 -188.686)" gradientUnits="userSpaceOnUse">
@@ -80,13 +76,11 @@ export default function CTASection() {
           <path d="M2991.143,2724.468h-61.441v2.348l105.263,158.665v113.275h51.646v-113.275l109.162-158.665v-2.348h-62.217l-72.779,113.276-69.634-113.276ZM2783.686,2894.552l-134.22-170.084h-41.871v274.288h51.656v-184.942l143.994,184.942h32.095v-274.288h-51.654v170.084ZM2417.352,2898.977h-101.732l50.87-116.866,50.862,116.866ZM2461.187,2998.756h56.337l-122.852-274.288h-56.358l-122.863,274.288h55.953l23.479-51.646h143.221l23.084,51.646ZM2045.553,2724.468c-43.038-.401-86.078,0-129.123,0v274.288h51.652v-80.6h77.471c134.22,0,133.829-193.688,0-193.688ZM1968.083,2773.77h77.471c65.742,0,66.132,97.04,0,97.04h-77.471v-97.04ZM1753.579,2998.756h51.656v-273.512h-59.097l-85.683,117.583-85.694-117.583h-59.478v273.512h51.646v-198.84l87.255,119.155h10.176l89.219-118.763v198.449ZM1273.775,2766.33c64.577,0,90.4,51.657,89.614,97.825-.776,45.002-25.037,93.515-89.614,93.515s-88.821-48.132-89.99-93.123c-1.179-46.179,25.43-98.217,89.99-98.217ZM1273.775,2719.374c-94.69,0-140.86,72.394-140.86,144.386s44.608,141.259,140.86,141.259,139.698-70.825,140.473-141.64c.797-71.611-46.157-144.005-140.473-144.005ZM1018.186,2928.717c-17.999,18.001-44.993,27.786-68.859,27.786-67.696,0-93.921-47.345-94.316-92.743-.38-45.774,28.181-95.076,94.316-95.076,23.866,0,48.121,8.217,66.122,25.813l34.439-33.25c-28.177-27.787-63.396-41.872-100.561-41.872-99.003,0-145.577,72.789-145.182,144.386.391,71.22,43.429,141.259,145.182,141.259,39.513,0,75.907-12.908,104.086-40.694l-35.227-35.608Z" fill="#2c3a49" fillRule="evenodd"/>
         </svg>
 
-        {/* Get Started Button */}
         <button className="bg-black text-[whitesmoke] rounded-[10px] w-[20vw] h-[8vh] border-none text-[1.2rem] transition-all duration-200 shrink-0 hover:cursor-pointer hover:shadow-[-5px_10px_15px_black] active:bg-[#262229] active:scale-110 active:tracking-widest max-md:w-[40vw] max-md:h-[6vh] max-md:text-[0.9rem]">
           Get Started
         </button>
       </div>
 
-      {/* ===== Brand Section ===== */}
       <div className="bg-[url('/images/call-the-action-background.jpg')] h-[90vh] bg-no-repeat bg-cover bg-center rounded-[120px] mx-6 flex flex-col max-md:rounded-[40px] max-md:mx-3 max-md:h-[60vh]">
         <div className="mt-[100px] px-[150px] max-md:mt-[50px] max-md:px-[30px]">
           <p className="text-[3.5rem] text-[rgb(234,235,236)] leading-tight max-md:text-[1.8rem] max-md:leading-tight">
@@ -98,7 +92,6 @@ export default function CTASection() {
         </div>
       </div>
 
-      {/* ===== Cards ===== */}
       <div className="flex flex-row justify-center !p-[90px] mt-[55px] gap-[125px] w-full !px-[150px] !py-[120px] max-md:flex-col max-md:items-center max-md:!p-[20px] max-md:!px-[20px] max-md:!py-[60px] max-md:gap-[30px] max-md:mt-[20px]">
         {[
           { img: "/images/Founder-img.jpg",     title: "Founder",     desc: "Passionate about helping businesses grow online through effective strategies" },
