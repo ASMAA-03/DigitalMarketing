@@ -1,5 +1,3 @@
-// app/components/HeroSection.jsx
-
 export default function HeroSection() {
   return (
     <section
@@ -16,10 +14,8 @@ export default function HeroSection() {
           "url('/images/the-home-page-background.jpg')",
       }}
     >
-      {/* overlay */}
       <div className="absolute inset-0 bg-black/25"></div>
 
-      {/* content */}
       <div
         className="
         relative z-10

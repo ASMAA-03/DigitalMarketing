@@ -26,18 +26,19 @@ export default function Navbar() {
       rounded-b-[55px]
       z-10
 
-      max-md:h-[11vh]
-      max-md:px-4
+      max-md:h-[9vh]
+      max-md:px-3
+      max-md:py-2
     "
     >
-      <div className="flex items-center flex-row min-w-0">
+      <div className="flex items-center flex-row min-w-0 max-md:max-w-[60%]">
         <svg
           className="
           w-[55px]
           h-[55px]
 
-          max-md:w-[40px]
-          max-md:h-[40px]
+          max-md:w-[35px]
+          max-md:h-[35px]
           shrink-0
         "
           version="1.1"
@@ -53,39 +54,49 @@ export default function Navbar() {
           top-[6px]
           left-[20px]
 
-          text-[1.3rem]
+          text-[1.2rem]
+          font-medium
 
           whitespace-nowrap
 
-          max-md:text-[0.75rem]
-          max-md:left-[10px]
+          max-md:text-[0.65rem]
+          max-md:left-[8px]
           max-md:top-[2px]
+          max-md:whitespace-normal
+          max-md:break-words
+          max-md:max-w-[120px]
+          max-md:leading-tight
         "
         >
           Digital Marketing Services
         </p>
       </div>
 
-      <div className="flex items-center gap-2 max-md:gap-1">
+      <div className="flex items-center gap-3 max-md:gap-2">
         <button
           className="
           rounded-full
-          text-[1rem]
+          text-[0.95rem]
+          font-medium
 
           w-28
           h-10
 
-          bg-gray-200
+          bg-gray-100
           text-black
 
           transition-all
-          duration-500
+          duration-300
 
-          hover:underline
+          hover:bg-gray-200
+          hover:scale-105
 
-          max-md:w-20
+          active:scale-95
+
+          max-md:w-16
           max-md:h-8
           max-md:text-[0.7rem]
+          max-md:rounded-full
         "
         >
           Login
@@ -94,7 +105,8 @@ export default function Navbar() {
         <button
           className="
           rounded-full
-          text-[1rem]
+          text-[0.95rem]
+          font-medium
 
           w-28
           h-10
@@ -106,15 +118,18 @@ export default function Navbar() {
           text-white
 
           transition-all
-          duration-500
+          duration-300
 
-          hover:opacity-80
+          hover:opacity-85
+          hover:bg-black
           hover:text-[#fef0d8]
+          hover:scale-105
 
-          max-md:w-20
+          active:scale-95
+
+          max-md:w-16
           max-md:h-8
           max-md:text-[0.7rem]
-          max-md:mx-0
         "
         >
           Sign
