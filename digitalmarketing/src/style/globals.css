@@ -1,15 +1,13 @@
 @import "tailwindcss";
-
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body{
+
+body {
   font-family: Geneva, Tahoma, sans-serif;
-color: rgb(0, 0, 0);
-background: #ffffff;
-overflow-x: hidden;
+  overflow-x: hidden;
 }
 .hero-page{
   background-image: url(/images/the-home-page-background.jpg);
