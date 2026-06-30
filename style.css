@@ -84,6 +84,7 @@ nav {
 .content h1 {
     font-size: 4.5rem;
     margin-bottom: 25px;
+    padding-top: 85px;
 }
 
 .content p {
@@ -296,9 +297,8 @@ a {
 /**/
 
 footer {
-    height: 50vh;
+    height: 35vh;
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     width: 100%;
 }
@@ -312,7 +312,8 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 750px;
+    width: 100%;
+    padding: 0px 40px;
 }
 
 li {
@@ -333,7 +334,12 @@ li:hover {
 .first-col,
 .sec-col,
 .thir-col {
-    margin-top: 85px;
+    margin-top: 45px;
+}
+
+.service-section {
+    height: 100vh;
+    padding-top: 150px;
 }
 
 @media (max-width: 768px) {
@@ -350,32 +356,42 @@ li:hover {
         min-height: 100vh;
         padding-bottom: 50px;
     }
-    .nav {
-        width: 20px;
-        height: 15vh;
-        padding: 25px;
+    nav {
+        height: auto;
+        padding: 5px;
+        gap: 15px;
+        border-radius: 0 0 25px 25px;
     }
-    .login-btn,
-    .sgin-btn {
-        padding: 0.3rem 1rem;
-        font-weight: 600;
+    .logo {
+        display: none;
+    }
+    .middle-cont {
+        width: 275px;
+    }
+    .middle-cont ul {
+        width: 100%;
+        justify-content: start;
+        flex-wrap: wrap;
+        gap: 10px;
+        font-size: 1rem;
+    }
+    .request-btn {
+        width: 80%;
+        max-width: 260px;
         font-size: 0.7rem;
-        margin: 1px;
     }
-    .logo svg {
-        width: 40px;
+    .content h1 {
+        font-size: 2rem;
+        width: 70%;
     }
-    .learn-btn {
-        width: 100px;
-        font-size: 0.7rem;
+    .content p {
+        width: 250px;
     }
-    .content h1,
-    p {
-        font-size: 1.2rem;
-    }
-    .logo p {
-        font-size: 0.8em;
-        margin-right: 15px;
+    .learn-btn,
+    .Read-btn {
+        font-size: 0.9rem;
+        min-width: 40vw;
+        min-height: 5vh;
     }
     .get-btn {
         font-weight: 200;
@@ -390,8 +406,11 @@ li:hover {
         width: 100%;
     }
     .first-card,
+    .first-service-card,
     .sec-card,
-    .ther-card {
+    .sec-service-card,
+    .ther-card,
+    .ther-service-card {
         max-height: 180px;
     }
     .first-card:hover,
@@ -405,15 +424,21 @@ li:hover {
         padding: 21px;
     }
     .first-card p,
+    .first-service-card p,
     .sec-card p,
+    .sec-service-card p,
     .ther-card p,
+    .ther-service-card p,
     .card-header h3 {
         font-size: 0.8rem;
-        padding: 15px;
+        padding: 5px;
     }
     .card-header img {
-        width: 15vw;
+        width: 18vw;
         height: 8vh;
+    }
+    .material-symbols-outlined {
+        display: none !important;
     }
     .card-header {
         margin-bottom: 1px;
@@ -424,8 +449,11 @@ li:hover {
     .Read-btn {
         width: 100px;
         height: 20px;
-        font-size: 0.7rem;
-        padding: 1px;
+        font-size: 1rem;
+    }
+    .service-section {
+        padding: 25px;
+        height: 130vh;
     }
     footer {
         height: auto;
