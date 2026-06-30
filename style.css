@@ -37,39 +37,30 @@ nav {
     z-index: 10;
 }
 
-.btns {
+.middle-cont ul li {
+    color: hsl(0, 0%, 0%);
+}
+
+.middle-cont ul {
     display: flex;
-    gap: 10px;
+    justify-content: space-between;
+    width: 255px;
+    font-size: 1.3rem;
 }
 
-.login-btn,
-.sgin-btn {
-    padding: 0.5rem 1.5rem;
-    border-radius: 30px;
-    font-weight: 600;
-    font-size: 1.2rem;
-    border: none;
-    cursor: pointer;
-    transition: 0.5s;
-    margin: 15px;
-}
-
-.sgin-btn {
+.request-btn {
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 10px 15px;
     background-color: #000000;
     color: #ffffff;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
-.sgin-btn:hover {
-    opacity: 0.8;
-    color: #fef0d8;
-}
-
-.login-btn {
-    color: #000000;
-}
-
-.login-btn:hover {
-    text-decoration: underline;
+.request-btn:hover {
+    opacity: 0.86;
+    box-shadow: 5px 5px 15px 8px #000000;
 }
 
 .logo {
@@ -172,7 +163,6 @@ a {
     background-size: cover;
     background-position: center;
     border-radius: 120px;
-    width: ;
     display: flex;
     flex-direction: column;
 }
@@ -215,8 +205,12 @@ a {
 }
 
 .first-card,
+.first-service-card,
+.ther-service-card,
 .sec-card,
-.ther-card {
+.sec-service-card,
+.ther-card,
+.ther-service-card {
     background-color: rgb(199, 170, 132);
     display: flex;
     flex-direction: column;
@@ -259,6 +253,47 @@ a {
 .card-header h3 {
     width: auto;
 }
+
+
+/**/
+
+.service-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+}
+
+.top-service-section {
+    text-align: center;
+    line-height: 50px;
+}
+
+.top-service-section p:first-child {
+    font-size: 3rem;
+}
+
+.top-service-section p:last-child {
+    color: #3f3732bb;
+}
+
+.first-service-card,
+.sec-service-card,
+.ther-service-card {
+    background-color: #ffffff;
+    border: 1px solid #00000053;
+    box-shadow: 5px 30px 55px #000000;
+}
+
+.first-service-card:hover,
+.sec-service-card:hover,
+.ther-service-card:hover {
+    cursor: pointer;
+    transform: translateY(-15px);
+}
+
+
+/**/
 
 footer {
     height: 50vh;
