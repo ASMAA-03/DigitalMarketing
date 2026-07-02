@@ -90,8 +90,8 @@ nav {
 .content p {
     font-size: 1.5em;
     word-spacing: 5px;
-    color: #fef0d8;
     line-height: 35px;
+    width: 500px;
 }
 
 .learn-btn {
@@ -132,29 +132,6 @@ a {
 .middle-banner svg {
     width: 10vw;
     height: 12vh;
-}
-
-.get-btn {
-    background-color: #000000;
-    color: whitesmoke;
-    border-radius: 10px;
-    width: 20vw;
-    height: 8vh;
-    border: none;
-    font-size: 1.2rem;
-    transition: 0.2s;
-}
-
-.get-btn:hover {
-    cursor: pointer;
-    box-shadow: -5px 10px 15px black;
-}
-
-.get-btn:active {
-    background-color: #262229;
-    box-shadow: #ccb080;
-    scale: 1.1;
-    letter-spacing: 2px;
 }
 
 .brand-section {
@@ -297,10 +274,11 @@ a {
 /**/
 
 footer {
-    height: 35vh;
     display: flex;
     justify-content: space-around;
     width: 100%;
+    color: snow;
+    height: 15vh;
 }
 
 .footer-content {
@@ -314,6 +292,7 @@ footer {
     justify-content: space-around;
     width: 100%;
     padding: 0px 40px;
+    color: snow;
 }
 
 li {
@@ -323,6 +302,22 @@ li {
     letter-spacing: 1px;
     line-height: 50px;
     transition: 1s;
+}
+
+.thir-col {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.thir-col li {
+    list-style: none;
+    line-height: normal;
+}
+
+.thir-col li a {
+    display: inline-block;
+    color: snow;
 }
 
 li:hover {
