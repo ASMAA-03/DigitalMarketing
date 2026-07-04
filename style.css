@@ -474,6 +474,79 @@ li:hover {
 
 /**/
 
+.hero-work {
+    padding: 50px;
+    background-color: rgba(248, 248, 248, 0.962);
+}
+
+.middle-img {
+    height: 410px;
+    width: 600px;
+    border-radius: 25px;
+}
+
+.hero-work .left-section {
+    height: 400px;
+}
+
+.middle {
+    display: flex;
+    padding-bottom: 80px;
+}
+
+.middle .right-work {
+    padding: 75px;
+}
+
+.right-work {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.top-section span {
+    color: #000000b2;
+}
+
+.middle-section h1 {
+    font-size: 2rem;
+}
+
+.middle-section p {
+    font-size: 1rem;
+    color: #000000ab;
+    width: 85%;
+}
+
+.last-section {
+    height: 60vh;
+    background-color: #eee7db4a;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 55%;
+    border: 1px solid #dadada;
+    border-radius: 15px;
+    background-color: #fdfdfd;
+    padding: 35px;
+}
+
+.card span:first-child {
+    font-size: 5.2rem;
+}
+
+.card-bottom {
+    color: #0000008c;
+}
+
 @media (max-width: 768px) {
     body,
     html {
