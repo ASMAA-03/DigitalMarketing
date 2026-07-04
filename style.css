@@ -528,7 +528,7 @@ li:hover {
     margin-bottom: 200px;
 }
 
-.card {
+.card-work {
     display: flex;
     flex-direction: column;
     width: 40%;
@@ -539,7 +539,7 @@ li:hover {
     padding: 35px;
 }
 
-.card span:first-child {
+.card-work span:first-child {
     font-size: 5.2rem;
 }
 
