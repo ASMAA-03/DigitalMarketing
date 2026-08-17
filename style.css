@@ -13,7 +13,7 @@ body {
 }
 
 .hero-page {
-    background-image: url(/images/the-home-page-background.jpg);
+    background-image: url(/DigitalMarketing/images/the-home-page-background.jpg);
     height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
@@ -135,7 +135,7 @@ a {
 }
 
 .brand-section {
-    background-image: url(/images/call-the-action-background.jpg);
+    background-image: url(/DigitalMarketing/images/call-the-action-background.jpg);
     height: 90vh;
     background-repeat: no-repeat;
     background-size: cover;
