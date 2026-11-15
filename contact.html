@@ -4,14 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digital Marketing</title>
+    <title>Request a Free Consultation | Digital Marketing</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="consultStyle.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
 </head>
 
 <body>
     <nav>
-        <div class="logo">
+        <a class="logo" href="index.html" style="text-decoration:none;color:inherit;">
             <svg height="5.2vh" version="1.1" id="_x32_" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#000000;}
@@ -46,100 +47,95 @@
 </g>
 </svg>
             <p>Digital Marketing Services</p>
-        </div>
+        </a>
         <div class="middle-cont">
             <ul>
-                <li><a href="#services">Services</a></li>
+                <li><a href="index.html#services">Services</a></li>
                 <li><a href="work.html">Our Work</a></li>
-                <li><a href="">Results</a></li>
+                <li><a href="index.html#results">Results</a></li>
             </ul>
-
         </div>
         <div class="btn-cont">
-            <button class="request-btn">Request a Free Consultation</button>
+            <button class="request-btn" type="button" onclick="location.href='consultation.html'">Request a Free Consultation</button>
         </div>
     </nav>
-    <main class="hero-section">
-        <section class="left-section">
-            <div class="top-section">
-                <a href="index.html">&lt;-- Back to home</a>
-            </div>
 
-            <div class="middle-section">
+    <main class="cn-hero">
+        <section class="cn-info">
+            <a class="cn-back" href="index.html">&lt;-- Back to home</a>
+
+            <div class="cn-intro">
                 <h1>Request a Free Consultation</h1>
                 <p>Tell us about your business and goals. We'll put together a tailored, data-driven growth plan — no cost, no obligation.</p>
             </div>
 
-            <div class="bottom-section">
-                <div class="left-bar">
-                    <span class="material-symbols-outlined" style="background-color: #cfb18999;width: 70px;height: 70px; border-radius: 55px; color: #FFFFFF; text-align: center; padding: 15px;font-size: 2.5rem; display: inline;">search</span>
-                    <div class="right-bar">
-                        <span>30-minute strategy call</span>
+            <div class="cn-perks">
+                <div class="cn-perk">
+                    <span class="material-symbols-outlined cn-perk-icon">search</span>
+                    <div class="cn-perk-text">
+                        <strong>30-minute strategy call</strong>
                         <span>A focused session on your biggest growth opportunities.</span>
                     </div>
                 </div>
 
-                <div class="left-bar">
-                    <span class="material-symbols-outlined" style="background-color: #cfb1898b;width: 70px;height: 70px; border-radius: 55px; color: #FFFFFF; text-align: center; padding: 15px;font-size: 2.5rem;">share</span>
-
-                    <div class="right-bar">
-                        <span>Custom growth plan</span>
+                <div class="cn-perk">
+                    <span class="material-symbols-outlined cn-perk-icon">share</span>
+                    <div class="cn-perk-text">
+                        <strong>Custom growth plan</strong>
                         <span>Actionable recommendations across SEO, ads, and content.</span>
                     </div>
                 </div>
 
-                <div class="left-bar">
-                    <span class="material-symbols-outlined" style="background-color: #cfb18990;width: 70px;height: 70px; border-radius: 55px; color: #FFFFFF; text-align: center; padding: 15px;font-size: 2.5rem;">circle_circle</span>
-
-                    <div class="right-bar">
-                        <span>No pressure</span>
+                <div class="cn-perk">
+                    <span class="material-symbols-outlined cn-perk-icon">check_circle</span>
+                    <div class="cn-perk-text">
+                        <strong>No pressure</strong>
                         <span>We only recommend what will actually move the needle.</span>
                     </div>
                 </div>
             </div>
         </section>
-        <div class="right-section">
-            <form>
-                <div class="grid-contanier">
-                    <div>
-                        <div class="row">
-                            <label>Full name</label>
-                            <input type="text" name="Jane Doe">
-                        </div>
-                        <div class="row">
-                            <label>Company</label>
-                            <input type="text" name="Acme Inc">
-                        </div>
 
+        <div class="cn-form-card">
+            <form class="cn-form" action="#" method="post">
+                <div class="cn-grid">
+                    <div class="cn-field">
+                        <label for="fullname">Full name</label>
+                        <input type="text" id="fullname" name="fullname" placeholder="Jane Doe" required>
                     </div>
-                    <div>
-                        <div class="row">
-                            <label>Email</label>
-                            <input type="email" name="jane@acme.com">
-                        </div>
-                        <div class="row">
-                            <label>Phone</label>
-                            <input type="number" name="+1(555)000-0000">
-                        </div>
+                    <div class="cn-field">
+                        <label for="company">Company</label>
+                        <input type="text" id="company" name="company" placeholder="Acme Inc">
                     </div>
-
+                    <div class="cn-field">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="jane@acme.com" required>
+                    </div>
+                    <div class="cn-field">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+1 (555) 000-0000">
+                    </div>
                 </div>
 
-                <div>
-                    <div class="row">
-                        <label>Service of interest</label>
-                        <input type="text" name="Select" style="width: 540px;">
-                    </div>
-                    <div class="row">
-                        <label>How can we help?</label>
-                        <textarea type="text">Tell us about your goals and current challenges....</textarea>
-                    </div>
+                <div class="cn-field">
+                    <label for="service">Service of interest</label>
+                    <select id="service" name="service">
+                        <option value="">Select</option>
+                        <option>SEO</option>
+                        <option>Paid Ads</option>
+                        <option>Content Marketing</option>
+                        <option>Social Media</option>
+                    </select>
                 </div>
-                <button class="send-btn">Send</button>
+
+                <div class="cn-field">
+                    <label for="message">How can we help?</label>
+                    <textarea id="message" name="message" placeholder="Tell us about your goals and current challenges..."></textarea>
+                </div>
+
+                <button class="cn-send" type="submit">Send</button>
             </form>
-
         </div>
-
     </main>
 </body>
 
