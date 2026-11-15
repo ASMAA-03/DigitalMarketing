@@ -18,7 +18,7 @@
 
 .cn-back {
     display: inline-block;
-    margin-bottom: 40px;
+    margin: 70px 60px;
     text-decoration: none;
 }
 
@@ -74,12 +74,13 @@
     background-color: #ede1cf;
     border-radius: 28px;
     padding: 20px 14px;
+    margin-top: 50px;
 }
 
 .cn-form {
     width: 100%;
     max-width: 100%;
-    margin: 0;
+    margin: 0px;
     padding: 0;
     display: flex;
     flex-direction: column;
