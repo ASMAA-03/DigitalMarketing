@@ -52,6 +52,3 @@ Then open `index.html` in your browser.
 
 - Connect the consultation form to a backend or form service
 - Add a dark mode
-
-## License
-This project is open source and available under the [MIT License](LICENSE).
